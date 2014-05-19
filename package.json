@@ -1,0 +1,16 @@
+{
+  "name": "jsdoc-external-example",
+  "version": "0.0.1",
+  "description": "In-line external examples referenced by JSDoc comments",
+  "main": "src/external-example.js",
+  "homepage": "https://github.com/jugglinmike/jsdoc-external-example",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jugglinmike/jsdoc-external-example.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mike Pennisi",
+  "license": "MIT-Expat"
+}
