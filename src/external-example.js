@@ -1,4 +1,5 @@
 var readFileSync = require("fs").readFileSync;
+var baseDir = env.opts.query.externalExBase;
 
 exports.defineTags = function(dictionary) {
 	dictionary.defineTag("externalExample", {
@@ -23,7 +24,7 @@ exports.defineTags = function(dictionary) {
 			}
 
 			example.src = readFileSync(
-				"examples/api/" + tag.value.description + ".js",
+				baseDir + "/" + tag.value.description + ".js",
 				"UTF-8"
 			);
 			examples.push(example);
